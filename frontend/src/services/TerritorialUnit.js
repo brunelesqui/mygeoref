@@ -1,8 +1,6 @@
 import axios from 'axios'
-require('dotenv').config()
 
-const baseUrl = process.env.BASE_URL
-//'http://localhost:3001/api/'
+const baseUrl = 'http://localhost:3001/api/'
 
 const getAllProvinces = () => {
   const request = axios.get(baseUrl + 'provincias') 
