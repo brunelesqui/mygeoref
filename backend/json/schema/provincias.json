@@ -1,0 +1,31 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "Provincias",
+	"type": "object",
+	"properties": {
+		"provincias": {
+			"type": "array",
+			"items": "object",
+			"properties": {
+				"centroide": {
+					"type": "object",
+					"properties": {
+						"lat": {
+							"type": "numeric",
+							"minimun": -90,
+							"maximun": 90
+						},
+						"lon": {
+							"type": "numeric",
+							"minimun": -90,
+							"maximun": 90
+						}
+					},
+				"id": "string",
+				"nombre": "string",
+				"filename": "srting"
+				}
+			}
+		}
+	}
+}

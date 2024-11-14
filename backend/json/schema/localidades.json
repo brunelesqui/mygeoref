@@ -1,0 +1,58 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "Localidades",
+	"type": "object",
+	"properties": {
+		"localidades": {
+			"type": "array",
+			"items": "object",
+			"properties": {
+				"categoria": "string",
+				"centroide": {
+					"type": "object",
+					"properties": {
+						"lat": {
+							"type": "numeric",
+							"minimun": -90,
+							"maximun": 90
+						},
+						"lon": {
+							"type": "numeric",
+							"minimun": -90,
+							"maximun": 90
+						}
+					},
+				"departamento": {
+					"type": "object",
+					"properties": {
+						"id": "string",
+						"nombre": "string"
+					}
+				},
+				"id": "string",
+				"localidad_censal": {
+					"type": "object",
+					"properties": {
+						"id": "string",
+						"nombre": "string"
+					}
+				},
+				"municipio": {
+					"type": "object",
+					"properties": {
+						"id": "string",
+						"nombre": "string"
+					}
+				},
+				"nombre": "string",
+				"provincia": {
+					"type": "object",
+					"properties": {
+						"id": "string",
+						"nombre": "string"
+					}
+				}
+			}
+		}
+	}
+}

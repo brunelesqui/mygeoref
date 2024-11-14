@@ -1,0 +1,11 @@
+# Directories
+backend/node_modules
+frontend/node_modules
+
+# Files
+backend/package.json
+backend/package-lock.json
+frontend/package.json
+frontend/package-lock.json
+frontend/eslint.config.js
+frontend/vite.config.js
